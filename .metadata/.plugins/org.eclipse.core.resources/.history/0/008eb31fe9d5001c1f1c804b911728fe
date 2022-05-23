@@ -1,0 +1,10 @@
+
+public class Return {
+	public String myName (String s) {
+		return s;
+	}
+public static void main(String[] args) {
+	Return r=new Return ();
+	r.myName("Shriniwas");
+}
+}

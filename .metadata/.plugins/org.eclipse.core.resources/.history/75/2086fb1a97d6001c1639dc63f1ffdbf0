@@ -1,0 +1,10 @@
+package com.qa.pagelayer;
+
+public class TestBase {
+	@BeforeTest
+	public void webDriverSetup() {
+		
+	}
+	
+
+}

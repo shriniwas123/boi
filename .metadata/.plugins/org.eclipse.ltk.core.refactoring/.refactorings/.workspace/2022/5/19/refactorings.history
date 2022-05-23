@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;VelocityClasses&apos; to &apos;myProject&apos;" description="Rename resource &apos;VelocityClasses&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/VelocityClasses" name="myProject" stamp="1651646343561" updateReferences="true"/>&#x0A;&#x0A;<refactoring comment="Move 0 source folders to &apos;test&apos;&#x0D;&#x0A;- Destination element: &apos;test&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move source folders" flags="6" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveRoots" roots="0" stamp="1651904519448" target="/MyMavenProject/src/test" version="1.0"/>
+</session>

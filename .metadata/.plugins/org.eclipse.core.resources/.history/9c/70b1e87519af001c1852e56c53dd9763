@@ -1,0 +1,14 @@
+package upCastDownCast;
+
+public class Paytm {//super class
+	
+	
+	
+	public void checkBalance() {
+		System.out.println(" Father Ask Me What is Balance in Your Accoount.");
+		
+	}
+	
+	
+
+}

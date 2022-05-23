@@ -1,0 +1,23 @@
+package waits;
+
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Implicit {
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "D:\\New folder (2)\\chromedriver.exe");
+		WebDriver d= new ChromeDriver();
+		d.manage().window().maximize();
+		//d.manage().window().minimize();//3.159 made nahi yet
+		d.manage().deleteAllCookies();
+	d.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS); // 3.159.
+		//d.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));// 4.1.2 version
+		d.get("https://jqueryui.com/droppable/");
+		
+		
+	}
+
+}

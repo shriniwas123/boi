@@ -1,0 +1,26 @@
+package com.qa.testLayer;
+
+import org.testng.annotations.Test;
+
+import com.qa.pagelayer.HomePage;
+
+public class TestClass {
+	
+	@Test
+	public void testPhoneOption() {
+		
+		h.clickOnPhone();
+	}
+	@Test
+	public void testSamsungS6() {
+		
+		h.clickOnSamsungS6();
+	}
+	@Test
+	public void testNokiaLumia() {
+		h.clickOnNokiaLumia();
+	}
+	
+	
+
+}

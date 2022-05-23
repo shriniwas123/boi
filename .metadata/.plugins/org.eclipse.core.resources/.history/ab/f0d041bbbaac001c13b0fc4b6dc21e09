@@ -1,0 +1,21 @@
+
+public class PalindoreOrNot {
+	
+	public static void main(String[] args) {
+		int num=1221;
+		
+		int rev =0;
+		int check =num;
+		while(num>0) {
+			rev=num%10;
+			rev=(rev*10)+rev;
+			num=num/10;
+		}
+		if (rev==check)
+			System.out.println("number is palindore"+check);
+		else
+			System.out.println("number id not palindore"+check);
+		
+	}
+
+}

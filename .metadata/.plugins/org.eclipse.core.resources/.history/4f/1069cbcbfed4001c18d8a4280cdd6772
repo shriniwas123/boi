@@ -1,0 +1,21 @@
+package projectMaven;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+
+public class ReadFullSheet {
+	public static void main(String[] args) throws EncryptedDocumentException, IOException {
+		String sheet="C:\\Users\\shriniwas shete\\Desktop\\Book1.xlsx";
+		FileInputStream f= new FileInputStream(sheet);
+	Sheet s=	WorkbookFactory.create(f).getSheet("Sheet1");
+	int rownumber= s.getLastRowNum();
+	System.out.println(rownumber);
+		
+	}
+
+}

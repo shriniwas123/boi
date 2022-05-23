@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNg Feature Test" >
+  <test name = "TestNg different Feature topics">
+    <classes>
+      
+       <class name= "projectMaven.Artifactid"/>
+      
+      
+    </classes>
+  </test> 
+</suite>
