@@ -1,0 +1,38 @@
+package collection;
+
+import java.util.Arrays;
+
+
+
+public class ArraySorting{
+	 public static void main(String[] args) {
+		 int sum= 0;
+		  String [] lis=  {"50", "kul","rohit","20","30","40"};
+		System.out.println(Arrays.toString(lis));  
+		  
+		  for(int i=0;i<lis.length;i++) {
+			  System.out.println(lis[i]);
+			String s= lis[i];
+		try {
+			int num= Integer.parseInt(s);
+			  sum= sum+num;
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+			
+		}
+		  }
+	 System.out.println(sum);
+		 
+		Arrays.sort(lis);
+		System.out.println(Arrays.toString(lis));
+		//Arrays.equals(null, 0, 0, null, 0, 0, null)
+		Arrays.sort(lis);
+		
+		
+		System.out.print(lis[1]+lis[2]);
+	}
+	 
+ }
+
+

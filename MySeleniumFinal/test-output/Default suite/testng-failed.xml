@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.TestLayer.TestAddCartPage">
+      <class name="com.qa.TestLayer.TestFbLogin">
         <methods>
-          <include name="addcartSonyVaioI5"/>
-          <include name="tearDown"/>
-          <include name="webDriverSetup"/>
+          <include name="launchbrowser"/>
+          <include name="TearDown"/>
+          <include name="loginPagetest1"/>
         </methods>
-      </class> <!-- com.qa.TestLayer.TestAddCartPage -->
+      </class> <!-- com.qa.TestLayer.TestFbLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

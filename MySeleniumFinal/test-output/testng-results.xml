@@ -2,32 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-21T16:31:51 IST" name="Suite" finished-at="2022-05-21T16:32:29 IST" duration-ms="38076">
+  <suite started-at="2022-05-29T18:47:37 IST" name="Default suite" finished-at="2022-05-29T18:47:55 IST" duration-ms="18208">
     <groups>
     </groups>
-    <test started-at="2022-05-21T16:31:51 IST" name="Test" finished-at="2022-05-21T16:32:29 IST" duration-ms="38076">
-      <class name="com.qa.TestLayer.TestLogin">
-        <test-method is-config="true" signature="start()[pri:0, instance:com.qa.TestLayer.TestLogin@436813f3]" started-at="2022-05-21T16:31:51 IST" name="start" finished-at="2022-05-21T16:31:51 IST" duration-ms="129" status="PASS">
+    <test started-at="2022-05-29T18:47:37 IST" name="Default test" finished-at="2022-05-29T18:47:55 IST" duration-ms="18208">
+      <class name="com.Angle.TestLayer.TestAnglelogin">
+        <test-method is-config="true" signature="launchBroweser()[pri:0, instance:com.Angle.TestLayer.TestAnglelogin@44ebcd03]" started-at="2022-05-29T18:47:37 IST" name="launchBroweser" finished-at="2022-05-29T18:47:55 IST" duration-ms="17790" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- start -->
-        <test-method is-config="true" signature="webDriverSetup()[pri:0, instance:com.qa.TestLayer.TestLogin@436813f3]" started-at="2022-05-21T16:31:51 IST" name="webDriverSetup" finished-at="2022-05-21T16:32:22 IST" duration-ms="30592" status="PASS">
+        </test-method> <!-- launchBroweser -->
+        <test-method signature="logIntoAngle()[pri:0, instance:com.Angle.TestLayer.TestAnglelogin@44ebcd03]" started-at="2022-05-29T18:47:55 IST" name="logIntoAngle" finished-at="2022-05-29T18:47:55 IST" duration-ms="376" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webDriverSetup -->
-        <test-method signature="TeastUser()[pri:0, instance:com.qa.TestLayer.TestLogin@436813f3]" started-at="2022-05-21T16:32:22 IST" name="TeastUser" finished-at="2022-05-21T16:32:29 IST" duration-ms="7060" status="PASS">
+        </test-method> <!-- logIntoAngle -->
+        <test-method is-config="true" signature="closeBroweser()[pri:0, instance:com.Angle.TestLayer.TestAnglelogin@44ebcd03]" started-at="2022-05-29T18:47:55 IST" name="closeBroweser" finished-at="2022-05-29T18:47:55 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TeastUser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.TestLayer.TestLogin@436813f3]" started-at="2022-05-21T16:32:29 IST" name="tearDown" finished-at="2022-05-21T16:32:29 IST" duration-ms="251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="stop()[pri:0, instance:com.qa.TestLayer.TestLogin@436813f3]" started-at="2022-05-21T16:32:29 IST" name="stop" finished-at="2022-05-21T16:32:29 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stop -->
-      </class> <!-- com.qa.TestLayer.TestLogin -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- closeBroweser -->
+      </class> <!-- com.Angle.TestLayer.TestAnglelogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

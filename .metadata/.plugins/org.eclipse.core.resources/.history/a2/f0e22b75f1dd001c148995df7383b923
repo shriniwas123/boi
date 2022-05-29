@@ -1,0 +1,19 @@
+package com.qa.TestLayer;
+
+import org.testng.annotations.Test;
+
+import com.qa.TestBase.FbTestBase;
+
+public class TestFbLogin extends FbTestBase {
+	@Test
+	public void loginPagetest() throws InterruptedException 
+	{
+		F.username1();
+		Thread.sleep(10);
+		F.pass();
+		
+		F.Login1();
+	}
+	
+
+}

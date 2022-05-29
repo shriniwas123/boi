@@ -1,0 +1,12 @@
+package array;
+
+public class Array {
+	public static void main (String [] args) {
+	String nam[]={"145", " 25"," 35i"};
+	for(int i =0; i<nam.length;i++)
+		System.out.print(nam[i]);
+	System.out.println(nam[0]+nam[1]);
+
+	}
+	
+}

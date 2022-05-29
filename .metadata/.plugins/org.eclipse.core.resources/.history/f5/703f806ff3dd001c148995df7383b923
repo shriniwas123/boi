@@ -1,0 +1,18 @@
+package com.qa.TestLayer;
+
+import org.testng.annotations.Test;
+
+import com.qa.TestBase.FbTestBase;
+import com.qa.pagelayer.FbLogin;
+
+public class TestFbLogin extends FbLogin {
+	@Test
+	public void loginPagetest1() {
+		F.inputuser1();
+
+		F.pass();
+
+		F.login1();
+	}
+
+}

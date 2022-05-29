@@ -1,0 +1,34 @@
+package com.qa.pagelayer;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class FbLogin {
+public FbLogin(){
+		
+		PageFactory.initElements(driver, this);
+		
+	}
+    @FindBy(xpath="//input[@id='email']")
+    private WebElement userna;
+    
+    @FindBy(xpath="//input[@id='pass']")
+    private WebElement password;
+    
+    @FindBy(xpath="//button[@id='loginbutton']")
+    private WebElement Login;
+    
+    public void username1() {
+    	userna.sendKeys("ka.wadnerkar@gmail.com");
+    	
+    }
+    public void pass() {
+    	password.sendKeys("sunny");
+    	}
+    public void Login1() {
+    	Login.click();
+    }
+    }
+
+

@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import com.qa.TestBase.Testbase;
 
 public class TestLogin extends Testbase {
+	
 	@Test
 	public void TeastUser() throws IOException, InterruptedException {
 		login.clickOnlogin();
